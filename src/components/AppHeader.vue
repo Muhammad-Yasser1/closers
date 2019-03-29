@@ -12,7 +12,9 @@
             </div>
             <div class="card-footer">
                 <button class="btn card-link btn-orange px-4">Request to join</button>
-                <button class="btn card-link btn-black px-4">Post an opportunity</button>
+                <button
+                    class="btn card-link btn-black px-4 mt-0 mt-md-2 mt-xl-0 ml-2 ml-md-0 ml-xl-2"
+                >Post an opportunity</button>
             </div>
         </div>
         <div class="col-md-7 pl-5 mt-3 mt-md-0">
@@ -39,6 +41,15 @@ header.row {
         .card-title {
             font-weight: 400 !important;
             font-size: 50px;
+            @media screen and(max-width: 1200px) {
+                font-size: 40px;
+            }
+            @media screen and(max-width: 1100px) {
+                font-size: 30px;
+            }
+            @media screen and(max-width: 1000px) {
+                font-size: 25px;
+            }
         }
         .card-text {
             font-size: 20px;
@@ -49,6 +60,9 @@ header.row {
         background: transparent;
         border-top: 0;
         .card-link {
+            @media screen and (max-width: 1200px) and (min-width: 768px) {
+                width: 100%;
+            }
             padding-top: 10px;
             padding-bottom: 12px;
             border-radius: 25px;
@@ -58,6 +72,7 @@ header.row {
             transition: all 0.3s;
             position: relative;
             top: 0;
+
             &:hover {
                 top: -3px;
             }

@@ -1,10 +1,10 @@
 <template>
     <section class="row">
-        <div class="col-md-6">
-            <div class="image-container">
+        <div class="col-md-6 overflow-hidden">
+            <div class="image-container wow fadeInLeft" data-wow-duration="1.5s">
                 <img
                     src="../assets/images/01.png"
-                    class="img-fluid"
+                    class="img-fluid anim"
                     alt="a man shaking hand with a woman"
                 >
             </div>

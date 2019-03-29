@@ -1,7 +1,7 @@
 <template>
     <section class="row">
         <div class="col-md-6">
-            <div class="image-container">
+            <div class="image-container wow fadeInLeft" data-wow-duration="1.5s">
                 <img src="../assets/images/03.png" class="img-fluid" alt="a man on a laptop">
             </div>
         </div>

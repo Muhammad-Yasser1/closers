@@ -2,17 +2,17 @@
     <section class="row">
         <h2 class="col-12 text-center mb-5">How it works</h2>
         <div class="col-12 row">
-            <div class="col-md-4 column">
+            <div class="col-md-4 column wow fadeInUp" data-wow-duration="1.5s">
                 <img src="../assets/images/Sign up.png" class="img-fluid" alt="Sign Up">
                 <h5 class="my-3">Request to join</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero fuga voluptas. Quaerat corrupti nemo in distinctio mollitia laudantium doloribus!</p>
             </div>
-            <div class="col-md-4 column">
+            <div class="col-md-4 column wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <img src="../assets/images/Match Closers.png" class="img-fluid" alt="Sign Up">
                 <h5 class="my-3">Request to join</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero fuga voluptas. Quaerat corrupti nemo in distinctio mollitia laudantium doloribus!</p>
             </div>
-            <div class="col-md-4 column">
+            <div class="col-md-4 column wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                 <img src="../assets/images/Sales.png" class="img-fluid" alt="Sign Up">
                 <h5 class="my-3">Request to join</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero fuga voluptas. Quaerat corrupti nemo in distinctio mollitia laudantium doloribus!</p>

@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="image-container">
+            <div class="image-container wow fadeInRight" data-wow-duration="1.5s">
                 <img src="../assets/images/02.png" class="img-fluid" alt="a white dashboard">
             </div>
         </div>

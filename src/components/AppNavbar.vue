@@ -17,7 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul
-                    class="navbar-nav ml-auto mt-2 mt-lg-0 w-75 justify-content-between justify-content-sm-around"
+                    class="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-between justify-content-sm-around"
                 >
                     <li class="nav-item">
                         <a class="nav-link" href="#">Post an opportunity</a>
@@ -40,9 +40,13 @@ export default {};
 
 <style scoped lang='scss'>
 .navbar-nav {
+    width: 50%;
+    @media screen and (max-width: 1100px) {
+        width: 75%;
+    }
     .nav-item {
         .nav-link {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             color: #000;
         }
