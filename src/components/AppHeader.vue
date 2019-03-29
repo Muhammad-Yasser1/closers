@@ -17,7 +17,7 @@
                 >Post an opportunity</button>
             </div>
         </div>
-        <div class="col-md-7 pl-5 mt-3 mt-md-0">
+        <div class="col-md-7 pl-md-5 mt-3 mt-md-0">
             <div class="image-container mx-auto">
                 <img
                     src="../assets/images/00.png"
@@ -35,6 +35,9 @@ export default {};
 
 <style scoped lang='scss'>
 header.row {
+    @media screen and (max-width: 1100px) {
+        padding-top: 50px;
+    }
     padding-top: 100px;
     padding-bottom: 100px;
     .card-body {
